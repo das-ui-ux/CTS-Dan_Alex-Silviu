@@ -10,11 +10,9 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ReaderAngajat extends ReaderAplicant{
-
     public ReaderAngajat(String file) {
         super(file);
     }
-
     public List<Aplicant> readAplicanti() throws FileNotFoundException{
         Scanner input2 = new Scanner(new File(super.getFileName()));
         input2.useDelimiter(",");

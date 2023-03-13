@@ -13,7 +13,6 @@ public abstract class ReaderStudent extends ReaderAplicant{
     public ReaderStudent(String file) {
         super(file);
     }
-
     public List<Aplicant> readStudents() throws FileNotFoundException, NumberFormatException {
         Scanner input = new Scanner(new File(super.getFileName()));
         input.useDelimiter(",|\n");
@@ -22,7 +21,7 @@ public abstract class ReaderStudent extends ReaderAplicant{
         while (input.hasNext()) {
             Student student = new Student();
             super.citesteAplicant(input, student);
-            student.setAn_studii(input.nextInt());
+            student.setAnStudii(input.nextInt());
             student.setFacultate(input.next());
             studenti.add(student);
         }

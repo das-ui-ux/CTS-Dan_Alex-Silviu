@@ -10,11 +10,9 @@ import java.util.List;
 import java.util.Scanner;
 
 public abstract class ReaderElev extends ReaderAplicant {
-
     public ReaderElev(String file) {
         super(file);
     }
-
     public List<Aplicant> readPupil() throws FileNotFoundException {
         Scanner input2 = new Scanner(new File(super.getFileName()));
         input2.useDelimiter(",|\n");

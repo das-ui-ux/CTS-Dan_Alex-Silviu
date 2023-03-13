@@ -9,11 +9,9 @@ import java.util.Scanner;
 public abstract class ReaderAplicant {
     public String fileName;
     public abstract List<Aplicant> readAplicanti() throws FileNotFoundException;
-
     public ReaderAplicant(String file){
         this.fileName = file;
     }
-
     public String getFileName() {
         return fileName;
     }
