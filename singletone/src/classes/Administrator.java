@@ -4,7 +4,7 @@ public class Administrator {
     private String nume;
     private int varsta;
 
-    // eager initialization
+    // eager initialization - instanta este creata cand este incarcata clasa
     private static Administrator instanta = new Administrator("Gigel", 30);
 
     private Administrator(String nume, int varsta) {
