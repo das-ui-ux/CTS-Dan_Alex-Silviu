@@ -3,10 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Seminarii.iml" filepath="$PROJECT_DIR$/Seminarii.iml" />
+      <module fileurl="file://$PROJECT_DIR$/problemeCreationale/problemeCreationale.iml" filepath="$PROJECT_DIR$/problemeCreationale/problemeCreationale.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recapTest/recapTest.iml" filepath="$PROJECT_DIR$/recapTest/recapTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar02/seminar02.iml" filepath="$PROJECT_DIR$/seminar02/seminar02.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar05/seminar05.iml" filepath="$PROJECT_DIR$/seminar05/seminar05.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar06/seminar06.iml" filepath="$PROJECT_DIR$/seminar06/seminar06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar08/seminar08.iml" filepath="$PROJECT_DIR$/seminar08/seminar08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar09/seminar09.iml" filepath="$PROJECT_DIR$/seminar09/seminar09.iml" />
       <module fileurl="file://$PROJECT_DIR$/singletone/singletone.iml" filepath="$PROJECT_DIR$/singletone/singletone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test1/test1.iml" filepath="$PROJECT_DIR$/test1/test1.iml" />
     </modules>
   </component>
 </project>
